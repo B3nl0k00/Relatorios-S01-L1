@@ -9,7 +9,7 @@ if B >= C then
  else
  print "Meta nao atingida"
  END IF
-----------------------
+-----------------------
 Dim Segredo as integer
 Segredo = 4321
 Dim senha as integer
