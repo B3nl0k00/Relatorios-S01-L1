@@ -22,7 +22,7 @@ print("Digite a quantidade de elementos (N): ")
 local N = tonumber(io.read())
 local tabela = {}
 for i=1,N do
-    print("Digite o elemento "..i)
+    print("Digite o elemento "..i.." :")
     table.insert(tabela,tonumber(io.read()))
 end
 print("Digite o número X a ser buscado: ")
