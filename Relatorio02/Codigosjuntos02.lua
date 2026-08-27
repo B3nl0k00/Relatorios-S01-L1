@@ -8,3 +8,4 @@ for i = M, N do
     local rest = baseexp^i
     print(baseexp.." ^ ".. i .. " = ".. rest)
 end
+-----------------------------
