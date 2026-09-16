@@ -17,6 +17,7 @@ int main()
         cout<<"2. Carregar Pacote"<<endl;
         cout<<"3. Descarregar Pacote"<<endl;
         cout<<"4. Encerrar Operacao"<<endl;
+        cout<<"Escolha uma opcao: ";
         cin>>opcao;
         if(opcao == 1){
             cout<<"Carga Atual: "<<pesoatual<<"kg / "<<pesomax<<" kg"<<endl;
