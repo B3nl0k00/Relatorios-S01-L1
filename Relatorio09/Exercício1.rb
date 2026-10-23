@@ -37,7 +37,7 @@ end
 drinks = [
   CoquetelAfterlife.new("Afterlife Classic", 35),
   DrinkDeLenda.new("Detona atomo", 120, "Adam Smasher"),
-  DrinkDeLenda.new("The Relic", 95, "Alt Cunningham")
+  DrinkDeLenda.new("O corredor", 95, "David Martinez")
 ]
 puts "Cardápio"
 drinks.each do |drink|
