@@ -11,6 +11,7 @@ precoDoPedido comLeite (Cafe _ preco _) =
   if comLeite
     then preco + 2.0
     else preco
+main :: IO ()
 main = do
   let cafeSuave      = Cafe "Chemex" 12.50 3
       cafeEquilibrado = Cafe "V60 medio"   15.00 6
